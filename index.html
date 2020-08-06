@@ -8,23 +8,31 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav class="main-nav">
         <div class="logo">
           <img src="src/img/fill-2.png" alt="" />
         </div>
+        <div class="navigation" id="navigation">
+          <div class="close-btn" id="closeBtn">
+            <span>Cerrar</span>
+          </div>
+          <ul class="main-menu">
+            <li><a href="" class="active">Inicio</a></li>
+            <li><a href="">Acerca de Nosotros</a></li>
+            <li><a href="">Historia</a></li>
+            <li><a href="">Contacto</a></li>
+          </ul>
 
-        <ul class="main-menu">
-          <li><a href="" class="active">Inicio</a></li>
-          <li><a href="">Acerca de Nosotros</a></li>
-          <li><a href="">Historia</a></li>
-          <li><a href="">Contacto</a></li>
-        </ul>
+          <ul class="language-menu">
+            <li><a href="" class="active">Es</a></li>
+            <li><a href="">En</a></li>
+          </ul>
+        </div>
 
-        <ul class="language-menu">
-          <li><a href="" class="active">Es</a></li>
-          <li><a href="">En</a></li>
-        </ul>
+        <div class="menu-btn" id="menuBtn">
+          <span>Menu</span>
+        </div>
       </nav>
     </header>
 
@@ -166,5 +174,7 @@
     </footer>
 
     <script src="js/index.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/stickyMenu.js"></script>
   </body>
 </html>
