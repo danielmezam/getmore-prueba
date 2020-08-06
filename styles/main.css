@@ -51,6 +51,7 @@ header {
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
+  z-index: 999999999999999;
 }
 
 header nav.main-nav {
